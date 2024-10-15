@@ -1,4 +1,3 @@
-// cinturon-asteroides-prueba-4.cpp
 // Simulacion del cinturon de asteroides considerando asteroides grandes
 // y pequenios. 100 cuerpos en total.
 
@@ -261,7 +260,6 @@ void verletV(double *y,
                 void (*derivada)(double *, double *, double *, double *,
                     double *, double *, double *, const double, double *))
 {
-    // Calcula aceleracion a(t).
     // Calcula aceleracion a(t).
     if (t == 0.0)
     	derivada(y, xp, yp, vx, vy, ax, ay, t, a); 
